@@ -1,0 +1,128 @@
+{
+  "DM_Metadata_Config": {
+    "ForEachLendingProduct": [
+      {
+        "name": "Simple Loan",
+        "Config": [
+          {
+            "srcobj": "dm_loan_account__c",
+            "trgobj": "loan__loan_account__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              {
+                "srcfield": "dm_custom_field_1__c",
+                "trgfield": "custesting__c",
+                "datatype": "date"
+              }  
+            ]
+          },
+          {
+            "srcobj": "dm_loan_payment_transaction__c",
+            "trgobj": "loan__loan_payment_transaction__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              
+            ]
+          },
+          {
+            "srcobj": "dm_loan_disbursal_transaction__c",
+            "trgobj": "loan__loan_disbursal_transaction__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+             
+            ]
+          },
+          {
+            "srcobj": "dm_charge__c",
+            "trgobj": "loan__charge__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              
+            ]
+          },
+          {
+            "srcobj": "dm_bill__c",
+            "trgobj": "loan__loan_account_due_details__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              
+            ]
+          },
+          {
+            "srcobj": "dm_automated_payment_setup__c",
+            "trgobj": "loan__automated_payment_setup__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+             
+            ]
+          },
+          {
+            "srcobj": "dm_repayment_schedule_summary__c",
+            "trgobj": "loan__repayment_schedule_summary__c",
+            "strategy": "1000",
+            "strategyclass": "SampleRSSOverrideTesting",
+            "fieldmapping": [
+             
+            ]
+          },
+	  {
+            "srcobj": "dm_loan_payment_transaction__c",
+            "trgobj": "loan__loan_payment_transaction__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              
+            ]
+          },
+          {
+            "srcobj": "dm_repayment_schedule__c",
+            "trgobj": "loan__repayment_schedule__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+             
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Difficult Loan",
+        "Config": [
+          {
+            "srcobj": "dm_loan_account__c",
+            "trgobj": "loan__loan_account__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+             
+            ]
+          },
+          {
+            "srcobj": "dm_loan_payment_transaction__c",
+            "trgobj": "loan__loan_payment_transaction__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+              
+            ]
+          },
+          {
+            "srcobj": "dm__repayment_schedule_summary__c",
+            "trgobj": "loan__repayment_schedule_summary__c",
+            "strategy": "0",
+            "strategyclass": "",
+            "fieldmapping": [
+             
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

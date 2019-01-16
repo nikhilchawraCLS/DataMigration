@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>DM_Automated_Payment_Setup__c</members>
+        <members>DM_Bill__c</members>
+        <members>DM_Charge__c</members>
+        <members>DM_Loan_Account__c</members>
+        <members>DM_Loan_Disbursal_Transaction__c</members>
+        <members>DM_Loan_Payment_Transaction__c</members>
+        <members>DM_Repayment_Schedule_Summary__c</members>
+        <members>DM_Repayment_Schedule__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>DM_Automated_Payment_Setup__c-DM Automated Payment Setup Layout</members>
+        <members>DM_Bill__c-DM Bill Layout</members>
+        <members>DM_Charge__c-DM Charge Layout</members>
+        <members>DM_Loan_Account__c-DM CL Contract Layout</members>
+        <members>DM_Loan_Disbursal_Transaction__c-DM Loan Disbursal Transaction Layout</members>
+        <members>DM_Loan_Payment_Transaction__c-DM Loan Payment Transaction Layout</members>
+        <members>DM_Repayment_Schedule_Summary__c-DM Amortization Schedule Layout</members>
+        <members>DM_Repayment_Schedule__c-DM Repayment Schedule Summary Layout</members>
+        <name>Layout</name>
+    </types>
+	<types>
+		<members>loan__Loan_Account__c.cusTesting__c</members>
+		<members>loan__Loan_Account__c.CusTesting2__c</members>
+		<name>CustomField</name>
+	</types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <version>44.0</version>
+</Package>

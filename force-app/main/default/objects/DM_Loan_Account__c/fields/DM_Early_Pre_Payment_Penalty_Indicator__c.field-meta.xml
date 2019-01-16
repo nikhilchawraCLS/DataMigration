@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Early_Pre_Payment_Penalty_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this is checked and account is passed it&#39;s maturity date then we do not asses pre payment penalty fees.</description>
+    <externalId>false</externalId>
+    <label>DM Early Pre Payment Penalty Indicator</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
